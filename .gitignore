@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+# You should commit your requirements.txt, but not the virtual environment itself.
+venv/
+myenv/
+.venv/
+env/
+
+# Environment Variables
+# NEVER commit API keys or other sensitive data.
+.env
+
+# Vector Databases
+# These are generated files and can be very large.
+# Do not commit them to Git.
+data/
+pdf_docs_collection/
+faiss_index/
+chroma_db_path/
